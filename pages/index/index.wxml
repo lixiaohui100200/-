@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <swiper indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view>
+    <div class="nav">
+      w3
+    </div>
+     <div class="nav">
+      w3
+    </div>
+     <div class="nav">
+      w3
+    </div>
+     <div class="nav">
+      w3
+    </div>
+    <view class='line-css'></view>
+  </view>
+</view>
