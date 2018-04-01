@@ -6,37 +6,37 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#00265d",
-    "navigationBarTitleText": "康尔",
+    "navigationBarTitleText": "康尔新零售",
     "navigationBarTextStyle":"#ffffff"
   },
   "tabBar": {
     "color": "#a9b7b7",
-    "selectedColor": "#11cd6e",
+    "selectedColor": "#01265d",
     "borderStyle": "white",
     "list": [
       {
-        "selectedIconPath": "/images/footer/home.png",
-        "iconPath": "/images/footer/home1.png",
+        "selectedIconPath": "/images/footer/11.png",
+        "iconPath": "/images/footer/1.png",
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "走进康尔"
       },
       {
-        "selectedIconPath": "/images/footer/message.png",
-        "iconPath": "/images/footer/message1.png",
+        "selectedIconPath": "/images/footer/22.png",
+        "iconPath": "/images/footer/2.png",
         "pagePath": "pages/index/index",
-        "text": "信息"
+        "text": "新闻中心"
       },
       {
-        "selectedIconPath": "/images/footer/home.png",
-        "iconPath": "/images/footer/home1.png",
+        "selectedIconPath": "/images/footer/33.png",
+        "iconPath": "/images/footer/3.png",
         "pagePath": "pages/index/index",
-        "text": "开心测试"
+        "text": "培训中心"
       },
       {
-        "selectedIconPath": "/images/footer/home.png",
-        "iconPath": "/images/footer/home1.png",
+        "selectedIconPath": "/images/footer/44.png",
+        "iconPath": "/images/footer/4.png",
         "pagePath": "pages/index/index",
-        "text": "开心测试"
+        "text": "素材下载"
       }
     ]
   }
