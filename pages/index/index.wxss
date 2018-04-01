@@ -52,4 +52,9 @@
   font-size: 12px;
   color:#00265d;
 }
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
 
