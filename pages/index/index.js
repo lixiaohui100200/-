@@ -9,35 +9,89 @@ Page({
    */
   data: {
     imgUrls: [
-      '/images/1.png',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+      '/images/banner/1.png',
+      '/images/banner/2.png',
+    ],
+    project:[
+      '/images/nav_project/1.jpg',
+      '/images/nav_project/1.jpg',
+      '/images/nav_project/1.jpg',
+      '/images/nav_project/1.jpg',
+      '/images/nav_project/1.jpg',
+      '/images/nav_project/1.jpg',
+      '/images/nav_project/1.jpg',
+      '/images/nav_project/1.jpg',
     ],
     nav1: '/images/nav/1.png',
     nav2: '/images/nav/2.png',
     nav3: '/images/nav/3.png',
     nav4: '/images/nav/4.png',
     content: '/images/content/content.png',
+    content2:'/images/nav_scientific/1.png',
+    content4:'/images/nav_me/1.jpg',
     indicatorDots: true,
     autoplay: true,
     interval: 3000,
     duration: 1000,
-    circular: true
+    circular: true,
+    selected1:'selected',
+    selected2: '',
+    selected3: '',
+    selected4: '',
+    show_content1:'display:block',
+    show_content2:'display:none',
+    show_content3:'display:none',
+    show_content4:'display:none',
   },
+  // 绑定事件
 
+  select1:function(){
+    this.setData({ selected1:'selected'})
+    this.setData({ selected2: '' })
+    this.setData({ selected3: '' })
+    this.setData({ selected4: '' })
+    this.setData({ show_content1:'display:block'})
+    this.setData({ show_content2: 'display:none' })
+    this.setData({ show_content3: 'display:none' })
+    this.setData({ show_content4: 'display:none' })
+  },
+  select2: function () {
+    this.setData({ selected1: '' })
+    this.setData({ selected2: 'selected' })
+    this.setData({ selected3: '' })
+    this.setData({ selected4: '' })
+    this.setData({ show_content1: 'display:none' })
+    this.setData({ show_content2: 'display:block' })
+    this.setData({ show_content3: 'display:none' })
+    this.setData({ show_content4: 'display:none' })
+  },
+  select3: function () {
+    this.setData({ selected1: '' })
+    this.setData({ selected2: '' })
+    this.setData({ selected3: 'selected' })
+    this.setData({ selected4: '' })
+    this.setData({ show_content1: 'display:none' })
+    this.setData({ show_content2: 'display:none' })
+    this.setData({ show_content3: 'display:block' })
+    this.setData({ show_content4: 'display:none' })
+  },
+  select4: function () {
+    this.setData({ selected1: '' })
+    this.setData({ selected2: '' })
+    this.setData({ selected3: '' })
+    this.setData({ selected4: 'selected' })
+    this.setData({ show_content1: 'display:none' })
+    this.setData({ show_content2: 'display:none' })
+    this.setData({ show_content3: 'display:none' })
+    this.setData({ show_content4: 'display:block' })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
     wx.getSystemInfo({
       success: function (res) {
-        console.log(res.model)
-        console.log(res.pixelRatio)
-        console.log(res.windowWidth)
-        console.log(res.windowHeight)
-        console.log(res.language)
-        console.log(res.version)
-        console.log(res.platform)
+        
       }
     })
   },
