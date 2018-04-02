@@ -34,19 +34,16 @@
   background: #ecebec;
   justify-content: space-around;
 }
-.container{
-  width: 100%;
-  position: fixed;
-}
+
 .content{
-  padding-top: 56%;
+ height: 340px;
 }
 .content image{
    width: 90%;
    height: 200px;
    margin: 20px 20px 0 20px;
 }
-.content div {
+.content view {
   display: block;
   margin: 0 20px 0 20px;
   font-size: 12px;
