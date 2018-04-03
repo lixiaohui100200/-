@@ -86,6 +86,17 @@ Page({
     this.setData({ show_content3: 'display:none' })
     this.setData({ show_content4: 'display:block' })
   },
+
+  // 点击跳转产品页面
+  to_project:function () {
+    wx:wx.navigateTo({
+      url: '/pages/project/pro',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+  
   /**
    * 生命周期函数--监听页面加载
    */
