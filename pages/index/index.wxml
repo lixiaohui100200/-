@@ -31,7 +31,7 @@
     </view>
     
 </view>
-<scroll-view scroll-y="true" class='content' style="{{show_content1}}">
+<scroll-view scroll-y="true" class='content' style="{{show_content1}};height:{{content_height}}px;">
     <image src='{{content}}' />
     <view>2016年1月11日，微信之父张小龙时隔多年的公开亮相，解读了微信的四大价值观。张小龙指出，越来越多产品通过公众号来做，因为这里开发、获取用户和传播成本更低。拆分出来的服务号并没有提供更好的服务，所以微信内部正在研究新的形态，叫「微信小程序」。
 2016年9月21日，微信小程序正式开启内测。在微信生态下，触手可及、用完即走的微信小程序引起广泛关注。腾讯云正式上线微信小程序解决方案，提供小程序在云端服务器的技术方案。
@@ -40,7 +40,7 @@
 2018年1月18日，微信提供了电子化的侵权投诉渠道，用户或者企业可以在微信公众平台以及微信客户端入口进行投诉。 [4] 
 2018年1月25日，微信团队在“微信公众平台”发布公告称，“从移动应用分享至微信的小程序页面，用户访问时支持打开来源应用。同时，为提升用户使用体验，开发者可以设置小程序菜单的颜色风格，并根据业务需求，对小程序菜单外的标题栏区域进行自定义。</view>
 </scroll-view>
-<scroll-view scroll-y="true" class='content' style="{{show_content2}}">
+<scroll-view scroll-y="true" class='content' style="{{show_content2}};height:{{content_height}}px;">
     <image src='{{content2}}' />
     <view>2016年1月11日，微信之父张小龙时隔多年的公开亮相，解读了微信的四大价值观。张小龙指出，越来越多产品通过公众号来做，因为这里开发、获取用户和传播成本更低。拆分出来的服务号并没有提供更好的服务，所以微信内部正在研究新的形态，叫「微信小程序」。
 2016年9月21日，微信小程序正式开启内测。在微信生态下，触手可及、用完即走的微信小程序引起广泛关注。腾讯云正式上线微信小程序解决方案，提供小程序在云端服务器的技术方案。
@@ -49,7 +49,7 @@
 2018年1月18日，微信提供了电子化的侵权投诉渠道，用户或者企业可以在微信公众平台以及微信客户端入口进行投诉。 [4] 
 2018年1月25日，微信团队在“微信公众平台”发布公告称，“从移动应用分享至微信的小程序页面，用户访问时支持打开来源应用。同时，为提升用户使用体验，开发者可以设置小程序菜单的颜色风格，并根据业务需求，对小程序菜单外的标题栏区域进行自定义。</view>
 </scroll-view>
-<scroll-view scroll-y="true" class='content' style="{{show_content3}}">
+<scroll-view scroll-y="true" class='content' style="{{show_content3}};height:{{content_height}}px;">
   <view class='top'>
     <view wx:for="{{project}}" class='project'>
       <image src='{{item}}'/>
@@ -57,7 +57,7 @@
     </view>
   </view>
 </scroll-view>
-<scroll-view scroll-y="true" class='content' style="{{show_content4}}">
+<scroll-view scroll-y="true" class='content' style="{{show_content4}};height:{{content_height}}px;">
     <view>
       <text> 
         地址：青岛崂山区松岭路333号

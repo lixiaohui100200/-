@@ -42,6 +42,7 @@ Page({
     show_content2:'display:none',
     show_content3:'display:none',
     show_content4:'display:none',
+    content_height:300,
   },
   // 绑定事件
 
@@ -89,9 +90,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var that = this
     wx.getSystemInfo({
       success: function (res) {
-        
+        var height = res.windowHeight - 220
+        that.setData({content_height:height})
       }
     })
   },
